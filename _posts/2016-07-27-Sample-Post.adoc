@@ -1,3 +1,9 @@
 = Sample Post
 
 Hello world !
+
+[source,java]
+if (true) {
+    System.out.println("Hello");
+}
+
