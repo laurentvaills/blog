@@ -4,7 +4,11 @@
     "repositoryName": "blog",
     "branch": "gh-pages"
   },
+  "site": {},
+  "socialnetwork": {
+    "email": "laurent.vaills@gmail.com"
+  },
   "theme": {
-    "name": "Casper"
+    "name": "casper"
   }
 }
