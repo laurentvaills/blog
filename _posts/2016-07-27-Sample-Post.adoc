@@ -2,7 +2,7 @@
 
 Hello world !
 
-[source,perl]
+[source,java]
 if (true) {
     System.out.println("Hello");
 }
