@@ -1,3 +1,252 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Untitled RSS Feed]]></title><description><![CDATA[Untitled RSS Feed]]></description><link>https://laurentvaills.github.io/blog</link><generator>RSS for Node</generator><lastBuildDate>Wed, 27 Jul 2016 15:13:37 GMT</lastBuildDate><atom:link href="https://laurentvaills.github.io/blog/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[Sample Post]]></title><description><![CDATA[<div class="paragraph">
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Untitled RSS Feed]]></title><description><![CDATA[Untitled RSS Feed]]></description><link>https://laurentvaills.github.io/blog</link><generator>RSS for Node</generator><lastBuildDate>Wed, 27 Jul 2016 15:58:21 GMT</lastBuildDate><atom:link href="https://laurentvaills.github.io/blog/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[Sample Post]]></title><description><![CDATA[<div class="paragraph">
 <p>Hello world !</p>
-</div>]]></description><link>https://laurentvaills.github.io/blog/2016/07/27/Sample-Post.html</link><guid isPermaLink="true">https://laurentvaills.github.io/blog/2016/07/27/Sample-Post.html</guid><dc:creator><![CDATA[Laurent Vaills]]></dc:creator><pubDate>Wed, 27 Jul 2016 00:00:00 GMT</pubDate></item></channel></rss>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-perl" data-lang="perl">if (true) {
+    System.out.println("Hello");
+}</code></pre>
+</div>
+</div>
+<div class="listingblock">
+<div class="title">Optional Title</div>
+<div class="content">
+<pre class="highlight"><code class="language-perl" data-lang="perl">die 'connect: '.$dbh-&gt;errstr;</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Not a code in next paragraph.</p>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+<div class="title">Optional Title</div>
+This is an example
+      single-paragraph note.
+</td>
+</tr>
+</table>
+</div>
+<div class="admonitionblock important">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-important" title="Important"></i>
+</td>
+<td class="content">
+Important.
+</td>
+</tr>
+</table>
+</div>
+<div class="admonitionblock warning">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-warning" title="Warning"></i>
+</td>
+<td class="content">
+Warning.
+</td>
+</tr>
+</table>
+</div>
+<div class="admonitionblock caution">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-caution" title="Caution"></i>
+</td>
+<td class="content">
+Caution.
+</td>
+</tr>
+</table>
+</div>
+<div class="listingblock">
+<div class="title">Optional Title</div>
+<div class="content">
+<pre>*Listing* Block
+
+Use: code or file listings</pre>
+</div>
+</div>
+<div class="listingblock">
+<div class="title">Optional Title</div>
+<div class="content">
+<pre class="highlight"><code class="language-perl" data-lang="perl"># *Source* block
+# Use: highlight code listings
+# (require `source-highlight` or `pygmentize`)
+use DBI;
+my $dbh = DBI-&gt;connect('...',$u,$p)
+    or die "connect: $dbh-&gt;errstr";</code></pre>
+</div>
+</div>
+<div class="sidebarblock">
+<div class="content">
+<div class="title">Optional Title</div>
+<div class="paragraph">
+<p><strong>Sidebar</strong> Block</p>
+</div>
+<div class="paragraph">
+<p>Use: sidebar notes :)</p>
+</div>
+</div>
+</div>
+<div class="literalblock">
+<div class="title">Optional Title</div>
+<div class="content">
+<pre>....
+*Literal* Block</pre>
+</div>
+</div>
+<div class="literalblock">
+<div class="content">
+<pre>Use: workaround when literal
+paragraph (indented) like
+  1. First.
+  2. Second.
+incorrectly processed as list.
+....</pre>
+</div>
+</div>
+<div class="quoteblock">
+<div class="title">Optional Title</div>
+<blockquote>
+<div class="paragraph">
+<p><strong>Quote</strong> Block</p>
+</div>
+<div class="paragraph">
+<p>Use: cite somebody</p>
+</div>
+</blockquote>
+<div class="attribution">
+&#8212; cite author<br>
+<cite>cite source</cite>
+</div>
+</div>
+<div class="paragraph">
+<p>normal, <em>italic</em>, <strong>bold</strong>, mono.</p>
+</div>
+<div class="paragraph">
+<p>``double quoted'', `single quoted'.</p>
+</div>
+<div class="paragraph">
+<p>normal, <sup>super</sup>, <sub>sub</sub>.</p>
+</div>
+<div class="paragraph">
+<p>&#169; &#174; &#8482;&#8201;&#8212;&#8201;&#8230;&#8203; &#8594; &#8592; &#8658; &#8656; &#182;</p>
+</div>
+<table class="tableblock frame-all grid-all spread">
+<caption class="title">Table 1. An example table</caption>
+<colgroup>
+<col style="width: 33.3333%;">
+<col style="width: 33.3333%;">
+<col style="width: 33.3334%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Col 1</th>
+<th class="tableblock halign-left valign-top">Col 2</th>
+<th class="tableblock halign-left valign-top">Col 3</th>
+</tr>
+</thead>
+<tfoot>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">6</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Three items</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">d</p></td>
+</tr>
+</tfoot>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">1</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Item 1</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">a</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">2</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Item 2</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">b</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">3</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Item 3</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">c</p></td>
+</tr>
+</tbody>
+</table>
+<table class="tableblock frame-all grid-rows spread">
+<colgroup>
+<col style="width: 20%;">
+<col style="width: 20%;">
+<col style="width: 20%;">
+<col style="width: 20%;">
+<col style="width: 20%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-center valign-top">ID</th>
+<th class="tableblock halign-left valign-top">FName</th>
+<th class="tableblock halign-left valign-top">LName</th>
+<th class="tableblock halign-left valign-top">Address</th>
+<th class="tableblock halign-right valign-top">Phone</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-center valign-top"><p class="tableblock">1</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Vasya</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Pupkin</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">London</p></td>
+<td class="tableblock halign-right valign-top"><p class="tableblock"><code>+123</code></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-center valign-top"><p class="tableblock">2</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">X</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Y</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">A,B</p></td>
+<td class="tableblock halign-right valign-top"><p class="tableblock"><code>45678</code></p></td>
+</tr>
+</tbody>
+</table>
+<table class="tableblock frame-all grid-all spread">
+<caption class="title">Table 2. Multiline cells, row/col span</caption>
+<colgroup>
+<col style="width: 25%;">
+<col style="width: 25%;">
+<col style="width: 25%;">
+<col style="width: 25%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Date</th>
+<th class="tableblock halign-left valign-top">Duration</th>
+<th class="tableblock halign-left valign-top">Avg HR</th>
+<th class="tableblock halign-left valign-top">Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">22-Aug-08</p></td>
+<td class="tableblock halign-center valign-middle" rowspan="2"><p class="tableblock">10:24</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">157</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Worked out MSHR (max sustainable
+heart rate) by going hard
+for this interval.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">22-Aug-08</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">152</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Back-to-back with previous interval.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">24-Aug-08</p></td>
+<td class="tableblock halign-center valign-top" colspan="3"><p class="tableblock">none</p></td>
+</tr>
+</tbody>
+</table>]]></description><link>https://laurentvaills.github.io/blog/2016/07/27/Sample-Post.html</link><guid isPermaLink="true">https://laurentvaills.github.io/blog/2016/07/27/Sample-Post.html</guid><dc:creator><![CDATA[Laurent Vaills]]></dc:creator><pubDate>Wed, 27 Jul 2016 00:00:00 GMT</pubDate></item></channel></rss>
