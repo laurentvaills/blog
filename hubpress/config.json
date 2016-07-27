@@ -4,7 +4,9 @@
     "repositoryName": "blog",
     "branch": "gh-pages"
   },
-  "site": {},
+  "site": {
+    "googleAnalytics": "UA-81426828-1"
+  },
   "socialnetwork": {
     "email": "laurent.vaills@gmail.com"
   },
