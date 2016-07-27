@@ -2,8 +2,113 @@
 
 Hello world !
 
-[source,java]
+[source,perl]
 if (true) {
     System.out.println("Hello");
 }
+
+.Optional Title
+
+[source,perl]
+die 'connect: '.$dbh->errstr;
+
+Not a code in next paragraph.
+
+.Optional Title
+NOTE: This is an example
+      single-paragraph note.
+      
+IMPORTANT: Important.
+
+WARNING: Warning.
+
+CAUTION: Caution.
+
+.Optional Title
+----
+*Listing* Block
+
+Use: code or file listings
+----
+
+.Optional Title
+[source,perl]
+----
+# *Source* block
+# Use: highlight code listings
+# (require `source-highlight` or `pygmentize`)
+use DBI;
+my $dbh = DBI->connect('...',$u,$p)
+    or die "connect: $dbh->errstr";
+----
+
+.Optional Title
+****
+*Sidebar* Block
+
+Use: sidebar notes :)
+****
+
+.Optional Title
+ ....
+ *Literal* Block
+
+ Use: workaround when literal
+ paragraph (indented) like
+   1. First.
+   2. Second.
+ incorrectly processed as list.
+ ....
+
+
+.Optional Title
+[quote, cite author, cite source]
+____
+*Quote* Block
+
+Use: cite somebody
+____
+
+normal, _italic_, *bold*, +mono+.
+
+``double quoted'', `single quoted'.
+
+normal, ^super^, ~sub~.
+
+(C) (R) (TM) -- ... -> <- => <= &#182;
+
+.An example table
+[options="header,footer"]
+|=======================
+|Col 1|Col 2      |Col 3
+|1    |Item 1     |a
+|2    |Item 2     |b
+|3    |Item 3     |c
+|6    |Three items|d
+|=======================
+
+[grid="rows",format="csv"]
+[options="header",cols="^,<,<s,<,>m"]
+|===========================
+ID,FName,LName,Address,Phone
+1,Vasya,Pupkin,London,+123
+2,X,Y,"A,B",45678
+|===========================
+
+.Multiline cells, row/col span
+|====
+|Date |Duration |Avg HR |Notes
+
+|22-Aug-08 .2+^.^|10:24 | 157 |
+Worked out MSHR (max sustainable
+heart rate) by going hard
+for this interval.
+
+|22-Aug-08 | 152 |
+Back-to-back with previous interval.
+
+|24-Aug-08 3+^|none
+
+|====
+
 
